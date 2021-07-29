@@ -128,12 +128,12 @@ const generateHtml = () =>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <title>My Team</title>
+    <title>The Team</title>
 
 <style>
     h2 {
     font-size: medium;
-    background-color:red;
+    background-color:blue;
     color: white;
     }
 
