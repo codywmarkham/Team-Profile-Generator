@@ -13,6 +13,7 @@ Depository Link: https://github.com/codywmarkham/Team-Profile-Generator
 Once deployed, the application appears as the image attached below on a traditional desktop.
 
 ![Explantion Image](https://github.com/codywmarkham/Team-Profile-Generator/blob/main/assests/images/samplehtml.PNG)
+![caption](https://github.com/codywmarkham/Team-Profile-Generator/blob/main/assests/images/example.gif)
 
 ## Resources
 
@@ -20,6 +21,7 @@ Nodemon
 Inquirer
 Jest
 Bootstrap
+Cloudconvert
 
 ## Credits
 
