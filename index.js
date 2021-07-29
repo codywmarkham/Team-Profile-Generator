@@ -109,8 +109,10 @@ function makeCards(newHires) {
             <h2>${newHires[i].nameSelect}</h2>
             <p>${newHires[i].roleSelect}</p>
             <p>ID: ${newHires[i].idSelect}</p>
-            <p>Email: ${newHires[i].emailSelect}</p>
-            <p>${detailObject} ${newHires[i].roleOption}</p>
+            <p>Email:
+            <a href="mailto: ${newHires[i].emailSelect}">${newHires[i].emailSelect}</a> </p>
+            <p>${detailObject}
+            <a href="${detailObject}" target="_blank"> ${newHires[i].roleOption}</a> </p>
         </div>
         `       
     }
