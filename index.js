@@ -132,9 +132,15 @@ const generateHtml = () =>
 
 <style>
     h2 {
-    font-size: medium;
+    font-size: large;
     background-color:blue;
     color: white;
+    height: 55px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     }
 
 </style>   
@@ -142,12 +148,12 @@ const generateHtml = () =>
 
 <body>
 
-    <header class="container-fluid bg-danger text-light mb-5 p-3">
+    <header class="container-fluid bg-danger text-light mb-5 mp-3">
         <div class="d-flex align-items-center justify-content-center">
         <h1>The Team</h1>
         </div>
         </header>
-            <div class="col-12 col-md-9">
+            <div class="col-12">
                 <section id="hireList" class="row justify-content-around">
             ${makeCards(newHires)}        
                 </section>
